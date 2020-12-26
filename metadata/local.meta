@@ -5,3 +5,27 @@ modtime = 1608930900.857260700
 [app/launcher]
 version = 8.1.1
 modtime = 1608930900.861184900
+
+[views/nasa_web_usage]
+owner = admin
+version = 8.1.1
+modtime = 1608959585.175950500
+
+[props/NASASquidLogs]
+owner = admin
+version = 8.1.1
+modtime = 1608955966.824016900
+
+[props/NASASquidLogs/EXTRACT-MonthDay]
+access = read : [ * ], write : [ * ]
+export = none
+owner = admin
+version = 8.1.1
+modtime = 1608958529.683516600
+
+[props/NASASquidLogs/EXTRACT-From%2CSquidDateTime%2CRequestType%2CRequest%2CReturnCode%2CReturnSize]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 8.1.1
+modtime = 1608960933.274195000
