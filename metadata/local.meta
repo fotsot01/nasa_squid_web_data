@@ -7,9 +7,11 @@ version = 8.1.1
 modtime = 1608930900.861184900
 
 [views/nasa_web_usage]
+access = read : [ * ], write : [ * ]
+export = none
 owner = admin
 version = 8.1.1
-modtime = 1608959585.175950500
+modtime = 1609012969.660402500
 
 [props/NASASquidLogs]
 owner = admin
@@ -29,3 +31,10 @@ export = system
 owner = admin
 version = 8.1.1
 modtime = 1608960933.274195000
+
+[views/basic_dashboard]
+access = read : [ * ], write : [ * ]
+export = none
+owner = admin
+version = 8.1.1
+modtime = 1609012994.803097100
