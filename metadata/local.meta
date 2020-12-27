@@ -20,10 +20,10 @@ modtime = 1608955966.824016900
 
 [props/NASASquidLogs/EXTRACT-MonthDay]
 access = read : [ * ], write : [ * ]
-export = none
+export = system
 owner = admin
 version = 8.1.1
-modtime = 1608958529.683516600
+modtime = 1609043287.962550600
 
 [props/NASASquidLogs/EXTRACT-From%2CSquidDateTime%2CRequestType%2CRequest%2CReturnCode%2CReturnSize]
 access = read : [ * ], write : [ * ]
@@ -42,4 +42,4 @@ modtime = 1609012994.803097100
 [views/simplexmldashboard]
 owner = admin
 version = 8.1.1
-modtime = 1609039304.650350000
+modtime = 1609043657.248423200
